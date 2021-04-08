@@ -36,6 +36,7 @@ export function bootstrap() {
     } 
     const contexts = [
         addContextLayer(parentEl),
+        addContextLayer(parentEl),
         addContextLayer(parentEl)
     ];
     const gap = 20;
